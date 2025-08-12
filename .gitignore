@@ -1,0 +1,95 @@
+# =========================
+# Gradle / build outputs
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Wrapper caches (local)
+gradle-app.setting
+
+# Gradle cache created by IntelliJ run configurations
+/gradle/
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+*.classpath
+*.project
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Java / build artifacts
+# =========================
+*.class
+*.jar
+build/libs/*.jar
+
+# Maven target (in case)
+target/
+
+# =========================
+# Minecraft dev / server runtimes
+# =========================
+run/
+server/
+logs/
+crash-reports/
+hs_err_pid*
+debug.log
+
+# If you keep a local dev server folder name differently, add it here
+
+# =========================
+# Plugin runtime data (do NOT commit runtime DBs/configs)
+# =========================
+# Common sqlite files and other runtime DBs
+*.db
+*.sqlite
+*.sqlite3
+ignoredata.db
+# plugin data folder (if you copy it into repo during dev)
+data/
+plugins/
+
+# =========================
+# Local config / secrets
+# =========================
+local.properties
+secrets.properties
+.env
+keystore.jks
+*.keystore
+
+# =========================
+# Logs, temp, misc
+# =========================
+*.log
+tmp/
+temp/
+.idea_modules/
+
+# =========================
+# Optional: OS-specific or personal files
+# =========================
+# (uncomment if you use them)
+# .gradle/daemon/
+# /.vagrant/

@@ -1,0 +1,26 @@
+name: Ignore
+version: '1.0-SNAPSHOT'
+main: lol.notender.ignore.Ignore
+api-version: '1.20'
+description: RVL Ignore plugin
+
+commands:
+  ignore:
+    description: Manage your ignore list
+    usage: |
+      /<command> <player> - Toggle ignore status with a player
+      /<command> list - View your ignore list  
+      /<command> clear - Clear your ignore list
+      /<command> help - Show help message
+    permission: ignore.use
+    permission-message: Bạn không có quyền sử dụng lệnh này!
+
+permissions:
+  ignore.use:
+    description: Allows players to use the ignore system
+    default: true
+  ignore.admin:
+    description: Allows admins to manage ignore system
+    default: op
+    children:
+      - ignore.use

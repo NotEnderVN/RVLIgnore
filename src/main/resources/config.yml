@@ -1,0 +1,13 @@
+block-private-messages: true
+blocked-commands:
+  - "/w"
+  - "/whisper"
+  - "/msg"
+  - "/message"
+  - "/tell"
+  - "/pm"
+  - "/t"
+  - "/m"
+
+# {player}
+ignore-message: "Bạn không thể gửi tin nhắn riêng cho {player} vì họ đã ignore bạn."
